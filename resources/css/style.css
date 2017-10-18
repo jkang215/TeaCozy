@@ -60,41 +60,105 @@ nav li {
 }
 
 #mission {
-  align-items: center;
   display: flex;
   background-image: url("../images/img-mission-background.jpg");
   background-color: black;
+  flex-direction: column;
+  justify-content: center;
   height: 700px;
   width: 1200px;
 }
 
 #mission .mission-text {
   background-color: black;
-  width: 1200px;
+
+}
+
+.mission-text h2 {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.mission-text h4 {
+  margin: 10px;
 }
 
 #story {
   align-items: center;
   padding-top: 69px;    /*to accommodate for header when following nav links*/
   width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: block;
+  margin-bottom: 50px;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0 15px;
 }
 
-.item img{
+.item img {
+  display: block;
   height: 200px;
   width: 300px;
+}
+
+.item h4 {
+  margin-top: 10px;
 }
 
 .menu-layer {
   display: inline-flex;
   flex-direction: row;
+}
+
+#locations {
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 69px;    /*to accommodate for header when following nav links*/
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loc-options {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.loc {
+  display: block;
+  background-color: black;
+  margin: 0 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+.loc p {
+  margin: 40px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: flex-start;
+}
+
+.info h2 {
+  margin: 10px;
+  padding-bottom: 15px;
+}
+.info h5 {
+  margin: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+footer h5 {
+  margin-left: 20px;
 }
