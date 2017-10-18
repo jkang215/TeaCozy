@@ -74,5 +74,27 @@ nav li {
 }
 
 #story {
-  
+  align-items: center;
+  padding-top: 69px;    /*to accommodate for header when following nav links*/
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+}
+
+.menu-layer {
+  display: inline-flex;
+  flex-direction: row;
 }
